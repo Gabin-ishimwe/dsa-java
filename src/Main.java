@@ -1,3 +1,5 @@
+import folder.DynamicArray;
+import folder.LinkedListSingly;
 import folder.Queues;
 import folder.Stacks;
 
@@ -6,7 +8,14 @@ public class Main {
         System.out.println("Hello world!");
 //        Stacks run =new Stacks();
 //        run.tryouts();
-        Queues queues = new Queues();
-        queues.queueImpl();
+//        Queues queues = new Queues();
+//        queues.queueImpl();
+//        queues.priorityQueueImpl();
+
+//        LinkedListSingly linkedListSingly = new LinkedListSingly();
+//        linkedListSingly.singlyListImpl();
+
+        DynamicArray dynamicArray = new DynamicArray();
+        dynamicArray.arrayImpl();
     }
 }
