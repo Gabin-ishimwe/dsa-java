@@ -1,7 +1,4 @@
-import folder.DynamicArray;
-import folder.LinkedListSingly;
-import folder.Queues;
-import folder.Stacks;
+import folder.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,7 +12,14 @@ public class Main {
 //        LinkedListSingly linkedListSingly = new LinkedListSingly();
 //        linkedListSingly.singlyListImpl();
 
-        DynamicArray dynamicArray = new DynamicArray();
-        dynamicArray.arrayImpl();
+//        DynamicArray dynamicArray = new DynamicArray();
+//        dynamicArray.arrayImpl();
+
+        BST bst = new BST();
+        bst.bstImpl();
+        bst.bubbleSort();
+        bst.selectionSort();
+        bst.insertionSort();
+
     }
 }

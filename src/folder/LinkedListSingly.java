@@ -1,5 +1,6 @@
 package folder;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class LinkedListSingly {
@@ -26,5 +27,13 @@ public class LinkedListSingly {
         linkedList.remove(1);
         System.out.println(linkedList.peek());
         System.out.println(linkedList);
+    }
+
+    public void arrListImpl() {
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("Gabin");
+        arrayList.add("Ishimwe");
+        arrayList.add("Aime");
+        arrayList.add("Alain");
     }
 }
